@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.769 s <<< FAILURE! - in com.vytrack.runners.CucumberRunner
+As a store manager, I need to make sure that -Calendar Events- module under -Activities- tab functions without any problem..Check "view", "edit" and "delete" options  Time elapsed: 27.029 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=86.0.4240.183)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-19ROC3S', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Gokhan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a1c9914fdad92e5f71bc1b1771feef72
+*** Element info: {Using=xpath, value=//*[contains(text(),'Activities') and @class='title title-level-1']}
+

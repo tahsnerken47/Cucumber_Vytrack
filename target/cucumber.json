@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-09T04:24:53.822Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6805000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Check \"view\", \"edit\" and \"delete\" options",
+        "description": "",
+        "id": "as-a-store-manager--i-need-to-make-sure-that--calendar-events--module-under--activities--tab-functions-without-any-problem.;check-\"view\"--\"edit\"-and-\"delete\"-options",
+        "after": [
+          {
+            "result": {
+              "duration": 642000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.vytrack.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3429000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the dashboard",
+            "match": {
+              "location": "com.vytrack.step_definitions.CalendarEventPageStepDefinitions.user_is_on_the_dashboard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-19ROC3S\u0027, ip: \u0027192.168.2.15\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\Gokhan\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a1c9914fdad92e5f71bc1b1771feef72\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(),\u0027Activities\u0027) and @class\u003d\u0027title title-level-1\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat com.vytrack.pages.BasePage.navigateTo(BasePage.java:51)\r\n\tat com.vytrack.step_definitions.CommonStepDefinitions.userNavigatesToAnd(CommonStepDefinitions.java:20)\r\n\tat ✽.user navigates to \"Activities\" and \"Calendar Events\"(file:///C:/Source/Cucumber_Vytrack/src/test/resources/features/calendar_events/CalendarEventPage.feature:7)\r\n",
+              "duration": 15655000000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user navigates to \"Activities\" and \"Calendar Events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Activities\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Calendar Events\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.vytrack.step_definitions.CommonStepDefinitions.userNavigatesToAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user hovers on threeDots",
+            "match": {
+              "location": "com.vytrack.step_definitions.CalendarEventPageStepDefinitions.user_hovers_on_three_dots()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should be able see view, edit and delete options",
+            "match": {
+              "location": "com.vytrack.step_definitions.CalendarEventPageStepDefinitions.user_should_be_able_see_view_edit_and_delete_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@entire_feature"
+          },
+          {
+            "name": "@TC1_view_edit_delete_icons"
+          }
+        ]
+      }
+    ],
+    "name": "As a store manager, I need to make sure that -Calendar Events- module under -Activities- tab functions without any problem.",
+    "description": "",
+    "id": "as-a-store-manager--i-need-to-make-sure-that--calendar-events--module-under--activities--tab-functions-without-any-problem.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/calendar_events/CalendarEventPage.feature",
+    "tags": [
+      {
+        "name": "@entire_feature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

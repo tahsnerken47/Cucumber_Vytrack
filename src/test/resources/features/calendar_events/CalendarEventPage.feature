@@ -66,7 +66,9 @@ Feature: As a store manager, I need to make sure that -Calendar Events- module u
       Then user should get that Daily, Weekly, Monthly and Yearly options available and that Weekly option is selected by default
 
     @TC9_daily_every_1_day
-    Scenario: cxcvxv
+    Scenario: Verify that "Never" radio button is selected as "Ends" option and that "Summary: Daily every 1 day" text is displayed
+    after respectively clicking on "Repeat" checkbox and "Repeat Every" radio button
+
       Given user is on the dashboard
       And user navigates to "Activities" and "Calendar Events"
       When user clicks on Create Calendar Event button
